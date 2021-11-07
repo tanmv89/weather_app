@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+      integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-section">
+        <div class="search-bar">
+          <i class="fa fa-search" aria-hidden="true"></i>
+          <input
+            type="text"
+            name="search-city"
+            id="search-input"
+            placeholder="Tìm kiếm thành phố"
+          />
+        </div>
+        <div class="info-wrapper">
+          <p class="city-name">Ho Chi Minh</p>
+          <p class="weather-state">may thua</p>
+          <img
+            src="http://openweathermap.org/img/wn/10d@2x.png"
+            alt="weather icon"
+            class="weather-icon"
+          />
+          <p class="temperature">26</p>
+        </div>
+      </div>
+      <div class="addtional-section">
+        <div class="row">
+          <div class="item">
+            <div class="label">Mat Troi Moc</div>
+            <div class="value sunrise">6:16</div>
+          </div>
+          <div class="item">
+            <div class="label">Mat Troi Lan</div>
+            <div class="value sunset">17:57</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="item">
+            <div class="label">Do Am</div>
+            <div class="value"><span class="humidity">73</span> %</div>
+          </div>
+          <div class="item">
+            <div class="label">Gio</div>
+            <div class="value"><span class="speed">5.54</span> Km/h</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
